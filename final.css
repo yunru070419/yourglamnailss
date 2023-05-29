@@ -1,0 +1,189 @@
+
+@font-face {
+    font-family: Título;
+    src: url(MADEINFINITY\ PERSONALUSE-Regular.otf);
+   }
+/** Menu Bar **/
+
+li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    float: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 80px;
+    height: 75px;
+    margin-right: auto;
+}
+.navbar_links {
+    list-style: none;
+}
+.navbar_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar_links li a {
+    transition: all 0.3s ease 0s;
+
+}
+.navbar_links li a:hover {
+    color: pink;
+    
+}
+.contactbutton {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color:#F49ED3;
+    border-radius: 50px;
+    cursor:pointer;
+    transform: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(234, 135, 203);
+}
+
+/** Backgroun image #1 **/
+* {
+    margin: 0;
+    padding: 0;
+}
+.background-image {
+    background-image: url(Homeback.png);
+    background-size: contain;
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+.homebutton{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px -150px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #F49ED3;
+    background: #F49ED3;
+    margin-left: 250px;
+    font-family: Título;
+    
+    
+}
+/** Backgroun image #2 **/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.classic-backgroundimage {
+    background-image: url(Regularpolishes.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+.classicbutton{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px -150px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #F49ED3;
+    background: #F49ED3;
+    margin-left: 240px;
+    font-family: Título;
+
+    
+}
+.gelbutton{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px -150px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #F49ED3;
+    background: #F49ED3;
+    margin-left: 240px;
+    font-family: Título;
+    
+}
+
+.gel-backgroundimage {
+    background-image: url(gelbackground.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+.contact-backgroundimage {
+    background-image: url(contactbackground.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+
+body {
+    background-color: #1B1F24;
+}
+.polishquote {
+    color: #F49ED3;
+    font-size: 30px;
+    font-family: Título;
+    font-weight: bold;
+    }
+ 
+    
+footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #1B1F24;
+        height: auto;
+        width: 100vw;
+        padding-top: 40px;
+        color: #fff;
+        clear: both;
+ }
+iframe {
+    position: absolute;
+    margin-left: 660px;
+    margin-top: -505px;
+} 
+
+/**cambio de imagen**/
+.button1{
+    width: 30px;
+    height: 30px;
+    background-color:#F49ED3;
+    border-radius: 60%;
+    border: none;
+    padding: absolute;
+    margin-top: 200px;
+}
+.imageBG{
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width:1441px;
+    height: 850px;
+
+
+}
+.button2{
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 670px;
+}
